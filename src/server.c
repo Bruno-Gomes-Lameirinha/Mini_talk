@@ -1,7 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   server.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: bgomes-l <bgomes-l@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/02/01 18:37:26 by bgomes-l          #+#    #+#             */
+/*   Updated: 2024/02/01 18:37:33 by bgomes-l         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../libft/libft.h"
 #include <signal.h>
 
-int main(void)
+int	main(void)
 {
-    ft_printf("PID: %d\n PID: %d\n", getpid(), getpid());
+	ft_printf("PID: %d\n PID: %d\n", getpid(), getpid());
 }
